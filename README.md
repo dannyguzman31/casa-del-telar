@@ -1,4 +1,4 @@
-# Advenriver
+# Casa del Telar
 
 Advenriver is a project I created for one of my first web design classes while I was at college. I decided to redo the website and improve it with all the knowledge and skills I have gain through hard study and practice
 
