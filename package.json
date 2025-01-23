@@ -1,0 +1,14 @@
+{
+  "name": "Casa del Telar",
+  "version": "1.0.0",
+  "description": "Casa del Telar landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss  css/style.css -w"
+  },
+  "author": "Daniel Guzman",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^7.0.0"
+  }
+}
