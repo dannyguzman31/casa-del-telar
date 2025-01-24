@@ -997,7 +997,7 @@ body {
 }
 .footer__navigation {
   border-top: 1px solid #777;
-  padding-top: 2rem;
+  padding-top: 3rem;
   display: inline-block;
 }
 @media only screen and (max-width: 56.25em) {
@@ -1028,7 +1028,7 @@ body {
 .footer__link:active {
   color: #294947;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
-  transform: rotate(5deg) scale(1.3);
+  transform: rotate(5deg) scale(1.7);
 }
 .footer__copyright {
   border-top: 1px solid #777;
@@ -1106,8 +1106,8 @@ body {
   height: 85vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(47, 117, 102, 0.6),
-      rgba(41, 73, 71, 0.6)
+      rgba(47, 117, 102, 0.3),
+      rgba(41, 73, 71, 0.3)
     ),
     url(../img/main.webp);
   background-size: cover;
@@ -1376,7 +1376,7 @@ body {
 }
 
 .section-book {
-  padding: 15rem 0;
+  padding: 4rem 0;
   background-image: linear-gradient(to right bottom, #2f7566, #294947);
 }
 @media only screen and (max-width: 56.25em) {

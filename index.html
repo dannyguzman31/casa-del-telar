@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="css/icon-font.css" />
 
@@ -294,12 +298,25 @@
         </div>
       </section>
       <!-- END OF WHAT WE OFFER SECTION-->
+
       <!-- CONTACT US SECTION-->
       <section class="section-book" id="section-book">
         <div class="row">
           <div class="book">
             <div class="book__form">
-              <form action="#" class="form">
+              <!-- Update the form action to Web3Forms endpoint -->
+              <form
+                action="https://api.web3forms.com/submit"
+                method="POST"
+                class="form"
+              >
+                <!-- Add Web3Forms access key as a hidden input -->
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="c3bcdfb6-bd13-4884-bd5a-330a4949dcb3"
+                />
+
                 <div class="u-margin-bottom-medium">
                   <h2 class="heading-secondary">Contact Us</h2>
                 </div>
@@ -310,6 +327,7 @@
                     class="form__input"
                     placeholder="Full name"
                     id="name"
+                    name="name"
                     required
                   />
                   <label for="name" class="form__label">Full name</label>
@@ -321,6 +339,7 @@
                     class="form__input"
                     placeholder="Phone Number"
                     id="phone"
+                    name="phone"
                     required
                   />
                   <label for="phone" class="form__label">Phone Number</label>
@@ -332,12 +351,26 @@
                     class="form__input"
                     placeholder="Email address"
                     id="email"
+                    name="email"
                     required
                   />
                   <label for="email" class="form__label">Email address</label>
                 </div>
+
+                <!-- Added message field -->
                 <div class="form__group">
-                  <button class="btn btn--green">Send &rarr;</button>
+                  <textarea
+                    class="form__input"
+                    placeholder="Your message"
+                    id="message"
+                    name="message"
+                    required
+                  ></textarea>
+                  <label for="message" class="form__label">Your message</label>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--green">submit</button>
                 </div>
               </form>
             </div>
@@ -346,31 +379,45 @@
       </section>
       <!-- END OF BOOKING SECTION-->
     </main>
-    <!--FOOTER SECTION-->
+    <!-- FOOTER SECTION -->
     <footer class="footer">
       <div class="row">
         <div class="col-1-of-2">
           <div class="footer__navigation">
             <ul class="footer__list">
               <li class="footer__item">
-                <a href="#" class="footer__link">Home</a>
+                <a href="#" class="footer__link">
+                  <i class="fas fa-home"></i>
+                  <!-- Home Icon -->
+                </a>
               </li>
               <li class="footer__item">
                 <a
                   href="https://www.facebook.com/profile.php?id=61570201400011"
                   class="footer__link"
-                  >Facebook</a
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
+                  <i class="fab fa-facebook"></i>
+                  <!-- Facebook Icon -->
+                </a>
               </li>
               <li class="footer__item">
                 <a
                   href="https://www.instagram.com/casa.del.telar/"
                   class="footer__link"
-                  >Instagram</a
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
+                  <i class="fab fa-instagram"></i>
+                  <!-- Instagram Icon -->
+                </a>
               </li>
               <li class="footer__item">
-                <a href="" class="footer__link">Email</a>
+                <a href="mailto:info@casa-del-telar.com" class="footer__link">
+                  <i class="fas fa-envelope"></i>
+                  <!-- Email Icon -->
+                </a>
               </li>
             </ul>
           </div>
@@ -379,7 +426,7 @@
           <p class="footer__copyright">
             Copyright &copy; by Casa del Telar LLC. All content on this website
             is protected by copyright and may not be reproduced without
-            permission
+            permission.
           </p>
         </div>
       </div>
