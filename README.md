@@ -1,10 +1,8 @@
 # Casa del Telar
 
-Advenriver is a project I created for one of my first web design classes while I was at college. I decided to redo the website and improve it with all the knowledge and skills I have gain through hard study and practice
+Casa del Telar is the project I created for my wife's Boutique Business Casa del Telar LLC.
 
-- Old Site - [live](https://danielguzmanprojects.glitch.me/index.html)
-
-- Live Website - [Advenriver](https://dannyguzman31.github.io/Advenriver/)
+- Live Website - [Advenriver](https://casa-del-telar.com)
 
 ## Table of contents
 
@@ -15,19 +13,17 @@ Advenriver is a project I created for one of my first web design classes while I
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-
 ## Overview
 
 ### My Goal
 
 What I want to accomplish:
 
-- 
-
+-
 
 ## My process
 
-- 
+-
 
 ### Language
 
@@ -36,7 +32,6 @@ What I want to accomplish:
 ### What I learned
 
 ....
-
 
 ## Author
 

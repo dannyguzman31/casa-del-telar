@@ -176,6 +176,7 @@ body {
 
 .paragraph {
   font-size: 1.6rem;
+  text-align: justify;
 }
 .paragraph:not(:last-child) {
   margin-bottom: 3rem;
@@ -575,6 +576,10 @@ body {
   background-image: linear-gradient(to right, #2f7566, #294947);
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.feature-box__text {
+  text-align: justify;
 }
 
 /* Icon box--------------------------------------------------- */
@@ -1145,7 +1150,8 @@ body {
   left: 4rem;
 }
 .header__logo {
-  height: 3.5rem;
+  height: 5.2rem;
+  filter: invert(1); /*change icon color to white */
 }
 .header__text-box {
   position: absolute;
